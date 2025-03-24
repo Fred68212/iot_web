@@ -3,10 +3,7 @@
     $unitID = $_GET['unitID'];
     $unitStatus = $_GET['unitStatus'];
 
-    $servername = "localhost";
-    $username = "rpiPicoW";
-    $password = "rpifred3733";
-    $dbname = "thebasementsink";
+	require 'secrets.php';
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 	if (!$conn) {
