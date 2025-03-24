@@ -1,5 +1,5 @@
-$servername = "localhost";
-    $username = "rpiPicoW";
-    $password = "rpifred3733";
-    $dbname = "thebasementsink";
+$servername = "INSERT_YOUR_DATABASE_SERVER_NAME";
+$username = "INSERT_DATABASE_USERNAME";
+$password = "INSERT_DATABASE_USER_PASSWIRD";
+$dbname = "INSERT_DATABASE_NAME";
     
